@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.ton-app{
+    border:3px solid black;
+    width: 100vw;
+    min-height: 100vh;
+}
+.list-group{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:2rem;
+    padding-right:2rem;
+    height: 15vh;
+    background-color: lightblue;
+    border-bottom: 3px solid black;
+    width:100%;
+}
+.ton-icons{
+    justify-self: flex-start;
+}
+
+.ton-card1{
+    border:2px solid red;
+    width:100%;
+    height:40vh;
+    background-size: cover;
+    padding:0;
+    margin: 0;
+    background-position: center;
+}
+.ton-card2{
+     border:2px solid blue;
+    width:100%;
+    min-height:100%;
+    background-size: cover;
+    background-position: center;
+    height:60vh;
+}
+.ton-card3{
+    border:2px solid green;
+    width:100%;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+    padding:10px;
+}
+.ton-card4{
+    border:2px solid palevioletred;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding:20px;
+}
+
+.data-img{
+    width:100%;
+    height:100%;
+}
+.poster-img{
+    width:85%;
+    height: 70%;
+    border-radius:6%;
+}
