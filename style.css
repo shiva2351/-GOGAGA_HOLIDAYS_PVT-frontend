@@ -9,9 +9,18 @@ body{
 }
 
 .ton-app{
-    border:3px solid black;
+    border:8px solid black;
     width: 100vw;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ton-logo{
+    width:50px;
+    height: 50px;
+    margin-top: 6px;
 }
 .list-group{
     width:50%;
@@ -26,54 +35,69 @@ body{
     padding-left:2rem;
     padding-right:2rem;
     height: 15vh;
-    background-color: lightblue;
-    border-bottom: 3px solid black;
+    background-color: white;
     width:100%;
+}
+.head-list-item{
+    font-weight:700 ;
+}
+
+.ton-content{
+    width:98%;
 }
 .ton-icons{
     justify-self: flex-start;
 }
 
 .ton-card1{
-    border:2px solid red;
     width:100%;
-    height:40vh;
+    height:65vh;
     background-size: cover;
     padding:0;
     margin: 0;
     background-position: center;
 }
 .ton-card2{
-     border:2px solid blue;
     width:100%;
     min-height:100%;
     background-size: cover;
     background-position: center;
-    height:60vh;
+    height:70vh;
+    padding:20px;
 }
 .ton-card3{
-    border:2px solid green;
     width:100%;
     height:40vh;
     background-size: cover;
     background-position: center;
     padding:10px;
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
 }
 .ton-card4{
-    border:2px solid palevioletred;
     width:100%;
     background-size: cover;
     background-position: center;
     height: 70vh;
     padding:20px;
+
+}
+.ton-card5{
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    padding:20px;
 }
 
+
 .data-img{
-    width:100%;
+    width:90%;
     height:100%;
 }
 .poster-img{
-    width:85%;
-    height: 70%;
-    border-radius:6%;
+    background-size: cover ;
+    border-radius:3%;
+    padding:10px;
 }
